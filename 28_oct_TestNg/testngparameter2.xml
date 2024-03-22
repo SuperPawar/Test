@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="a" value="10"></parameter>
+	<parameter name="b" value="5"></parameter>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="Parametrization.Sum1" />
+			<class name="Parametrization.Sum2" />
+			<class name="Parametrization.Sum3" />
+			<class name="Parametrization.Sum4" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

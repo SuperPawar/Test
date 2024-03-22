@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [28_oct_TestNg by groups]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GRP-Loginpage(failed)">
+    <groups>
+      <run>
+        <include name="Loginpage"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestNGFeature.Groups">
+        <methods>
+          <include name="Logo"/>
+          <include name="usernameandpassword"/>
+        </methods>
+      </class> <!-- TestNGFeature.Groups -->
+    </classes>
+  </test> <!-- GRP-Loginpage(failed) -->
+</suite> <!-- Failed suite [28_oct_TestNg by groups] -->
